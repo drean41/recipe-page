@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+h1, h2 {
+  font-family: 'Young Serif', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  color: var(--nutmeg);
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+p, ul, ol, table{
+  font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: var(--wenge-brown);
+}
+
+header img {
+  max-width: 100%;
+}
+
+main {
+  padding: 3rem;
+  background-color: var(--white);
+}
+
+.introduction h1 {
+  font-size: 2.8rem;
+  color: var(--dark-charcoal);
+  line-height: 2.8rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.introduction p {
+  
+}
+
+.preparation {
+  background-color: var(--rose-white);
+
+  padding: 2rem;
+  margin-block: 2rem;
+  border-radius: 1.4rem;
+}
+
+.preparation p {
+  color: var(--dark-raspberry);
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+
+.preparation ul {
+  padding-left: 2rem;
+}
+
+.preparation ul li {
+  font-size: 1.4rem;
+  padding-left: 1.2rem;
+}
+
+.preparation ul li + li {
+  margin-top: 1rem;
+}
+
+.preparation ul li span {
+  font-weight: 600;
+}
+
+.preparation ul li::marker {
+  color: var(--dark-raspberry);
+  border-radius: 50%;
+}
+
+
+.list ul, .list ol {
+  padding-left: 2rem;
+}
+
+.list li {
+  padding-left: 1.4rem;
+}
+
+.list li + li {
+  margin-top: 1rem;
+}
+
+.list li::marker {
+  color: var(--nutmeg);
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+.list::after {
+  content: '';
+  width: 26rem;
+  height: .1rem;
+  display: block;
+  background-color: var(--light-grey);
+  margin-block: 3rem;
+}
+
+.list span {
+  font-weight: 600;
+}
+
+.nutrition table {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 30rem;
+  border-spacing: 0;
+}
+
+.nutrition td {
+  padding: 1rem 2rem;
+}
+
+.nutrition td:last-child {
+  color: var(--nutmeg);
+  font-weight: 600;
+}
+
+.border-bottom {
+  border-bottom: .1rem solid var(--light-grey);
+}
+
+.attribution {
+  font-size: 1.6rem;
+  font-family: 'Outfit';
+  color: var(--wenge-brown);
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+a {
+  color: var(--wenge-brown);
+}
