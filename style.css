@@ -17,6 +17,10 @@
   --dark-charcoal: hsl(24, 5%, 18%);
 }
 
+.app {
+  background-color: var(--white);
+}
+
 h1, h2 {
   font-family: 'Young Serif', sans-serif;
   font-weight: 400;
@@ -41,7 +45,6 @@ header img {
 
 main {
   padding: 3rem;
-  background-color: var(--white);
 }
 
 .introduction h1 {
@@ -109,7 +112,7 @@ main {
 
 .list::after {
   content: '';
-  width: 26rem;
+  width: 100%;
   height: .1rem;
   display: block;
   background-color: var(--light-grey);
@@ -123,7 +126,6 @@ main {
 .nutrition table {
   margin-top: 2rem;
   width: 100%;
-  max-width: 30rem;
   border-spacing: 0;
 }
 
@@ -150,4 +152,56 @@ main {
 
 a {
   color: var(--wenge-brown);
+}
+
+@media (min-width: 600px) {
+  .app {
+    padding: 3rem;
+  }
+
+  header img {
+    border-radius: 1rem;
+  }
+
+  main {
+    padding: 3rem 0;
+  }
+
+  .introduction h1 {
+    font-size: 3.6rem;
+  }
+
+  .preparation p {
+    font-size: 2rem;
+  }
+
+  .preparation ul {
+    padding-left: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .list ul, .list ol {
+    padding-left: 2.4rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .app {
+    max-width: 70rem;
+    margin: 5rem auto;
+    border-radius: 2rem;
+  }
+
+  body {
+    background-color: var(--eggshell);
+  }
+}
+
+@media (min-width: 1000px) {
+  .app {
+    margin-block: 7rem;
+  }
 }
