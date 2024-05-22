@@ -8,7 +8,7 @@ Esta é uma solução para o [desafio do Recipe Page no Frontend Mentor](https:/
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://drean41.github.io/recipe-page/)
+- Live Site URL: [https://drean41.github.io/recipe-page/](https://drean41.github.io/recipe-page/)
 
 ### Linguagens e Ferramentas
 
